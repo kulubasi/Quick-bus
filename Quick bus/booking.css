@@ -1,0 +1,57 @@
+.image{
+		background-image: url("bus.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 37em;
+		margin-top: -0.5em;
+}
+header{
+	text-align: center;
+	padding: 2em auto 2em auto;
+	height: 10em;
+}
+.list{
+	list-style: none;
+	position: absolute;
+	top: 6.5em;
+	right:5em;
+
+}
+.list li{
+	display: inline;
+	margin: 1em;
+
+}
+.list li a{
+	color: black;
+	font-size: 1.2em;
+}
+.content{
+	padding:5em 8em 4em 30em;
+}
+
+.input{
+	display: grid;
+	grid-template-columns: 10em 10em;
+	margin:0em 0.5em 0.5em 0.5em;
+}
+
+select{
+	height: 1.8em;
+	border-radius: 5px;
+}
+select:hover{
+	border:1px solid black;
+}
+input{
+	border:1px solid gray;
+	height: 1.8em;
+	border-radius: 5px;
+}
+.btn{
+	margin-bottom: 0.5em;
+}
+strong{
+	font-size: 1.5em;
+	color: black;
+}

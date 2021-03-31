@@ -1,0 +1,35 @@
+body{
+	justify-content: center;
+}
+form{
+	border: 1px solid black;
+	border-radius: 4px;
+	width:23em;
+	height: 26em;
+	margin: 8em auto auto auto;
+	padding: 4em 8em 8em 4em;
+	text-align: left;
+
+}
+h4{
+	margin-bottom: 3em;	
+}
+.log{
+	margin-bottom: 0.7em;
+}
+input{
+	margin-left: 2em;
+	width:15em;
+}
+.Email{
+	margin-bottom: -1em;
+}
+.pwd{
+	margin-bottom: 1em;
+}
+.btn{
+	height: 2em;
+	text-align: center;
+	width: 6em;
+	margin-bottom: 0.5em
+}

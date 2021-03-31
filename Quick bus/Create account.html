@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF 8">
+<link rel="stylesheet" href="account.css"/>
+<title>Account </title>
+<link rel='icon' href='photos\images.png'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="form">
+	<form action="account.php" method="" class="form-box"  method="post">
+		<h4 class="text-success account">Create New Account</h4>
+		<input type= "text " placeholder= "First Name." size="30" name="firstname" required="required">
+		<br/><br/>
+		<input type= "text " placeholder= "Last Name." size="30" name="lastname"required="required">
+		<br/><br/>
+		<input type= "text " placeholder= "Email" size="30" name="email"required="required">
+		<br/><br/>
+		<input type="password" class="pwd" placeholder="Password" size="15" name="password"required="required" ><br>
+		<a href="index2.html"><button type="button" class="btn btn-primary">Create</button></a>
+		<p><a  class="link" href="Login.html">Already have an account?.Login</u></a></p>
+	</form>
+</div>
+
+<script>
+  $(window).load(function() {
+    $('#loader').hide();
+  });
+</script>
+
+</body>
+
+
+
+
+
+
+</html>

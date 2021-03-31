@@ -1,0 +1,10 @@
+#seats{
+	border: 1px solid black;
+	width:40%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	margin: 8em 10em 8em 22em;
+}
+button{
+	margin: 0.5em;
+}

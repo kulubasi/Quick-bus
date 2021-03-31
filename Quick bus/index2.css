@@ -1,0 +1,273 @@
+body {
+    padding: 0 1em 1em 1em;
+    margin: 0 3em 3em 3em;
+    font-size: 1em;
+    
+}
+.body-wrapper{
+    font-size: 0.9;
+}
+.btn{
+    margin-bottom: 0.5em;
+}
+.hide {
+    display: none;
+}
+
+.button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.content {
+    padding-top: 0;
+    margin-top: 0;
+    background-color: white;
+}
+
+.motion img {
+    width: 12em;
+    padding: 0 auto 0 auto;
+    margin: 0 auto 0 auto;
+}
+
+.covid {
+    margin-top: 0.4em;
+    padding-left: 7em;
+    width: 800px;
+    padding-bottom: 0;
+}
+
+.cvd {
+    width: 4em;
+    height: 4em;
+    padding: 0;
+    margin: 0;
+
+}
+
+#top {
+    margin: auto 0 auto 0;
+    height: 7em;
+    background-color: rgb(43, 226, 226);
+    margin-top: 0;
+    
+    
+}
+.name{
+    position: absolute;
+    left:13em;
+
+}
+#logo{
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.menu ul li a {
+    font-weight: bold;
+}
+
+.menu ul li {
+    padding-bottom: 2em;
+}
+
+.watsup {
+    width: 3em;
+}
+
+.icons li img {
+    width: 25px;
+}
+
+.notify:hover {
+    border: 2px solid rgb(211, 43, 226);
+    border-radius: 4px;
+    font-family: 'Acme';
+    color: green;
+    margin-left: 10px;  
+    padding: 5px;
+
+}
+.covid:hover {
+    cursor: pointer;
+    /*border: 2px solid rgb(43, 226, 156);
+    border-radius: 3px;
+    background-color:aqua;*/
+}
+
+.notify  {
+    border-radius: 2px;
+    background-color: white;
+    font-family: 'Akaya Kanadaka';
+    color: black;
+    padding:4px;
+
+
+}
+
+.icons li:hover {
+    cursor: pointer;
+}
+
+.icons {
+    padding: 1em;
+    position: absolute;
+    right: 1px;
+    position: fixed;
+    top: 8em;
+}
+
+.icons li {
+    display: flex;
+}
+
+.int {
+    border: 1px solid gray;
+    border-radius: 0.2em;
+    justify-content: center;
+    padding-left: 3em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    width: 80%;
+}
+
+.body-wrapper {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 2;
+}
+
+.log {
+    display: flex;
+}
+
+.info {
+    margin-top: 0.5em;
+}
+
+.log img {
+    width: 7em;
+    margin-top: 0;
+}
+
+.log .name {
+    margin-top: 3em;
+    margin-left: 0;
+    font-weight:-5;
+    margin-top: 2.8em;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+}
+.name2{
+    margin-top: 2.1em;
+    font-weight:-5;
+    margin-left: -0.8em;
+    font-size: 1.1em;
+}
+
+#menu ul {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 7em;
+    margin-top: 1.8em;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu ul li a:active {
+    border-bottom: 2px rgb(107, 55, 91);
+}
+
+#menu ul li a:hover {
+    color: rgb(20, 44, 23);
+    border-bottom: 2px solid black;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+#side-bar {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 0.5em;
+    width: 20em;
+    height: 23.6em;
+    background-color: green;
+    margin-top: 0.5em;
+    color:white;
+
+}
+
+.footer ul li {
+    list-style: none;
+}
+.footer{
+    background-color: 
+}
+.covid {
+    display: flex;
+}
+
+#menu ul li {
+    display: inline;
+    float: left;
+    padding: 1.5em 1.5em 0 1.5em;
+    text-decoration: none;
+}
+#menu{
+    position: absolute;
+    top:1.4em;
+    right:4em;
+}
+#buses img {
+    width: 25em;
+    margin: 0.3em;
+    border-radius: 5px;
+}
+
+#buses {
+    display: grid;
+    grid-template-columns: 0.08fr;
+    margin: 0.2em;
+    justify-content: center;
+}
+
+#login {
+    text-align: left;
+}
+
+.wrapper {
+    display: flex;
+
+}
+
+#side-bar p {
+    line-height: 1.5em;
+     font-family: 'Akaya Kanadaka';
+     font-size: 1.1em; 
+}
+
+.footer {
+    background-color: gray;
+    height: 10em;
+    text-align: center;
+}
+.footer ul li{
+    display: inline;
+    padding: 8px;
+
+}
+.footer ul li:hover{
+    color: lightblue;
+    cursor: pointer;
+}
+.footer ul{
+   
+}

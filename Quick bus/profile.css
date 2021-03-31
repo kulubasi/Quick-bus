@@ -1,0 +1,72 @@
+/*#mybody{
+	max-width:900px;
+	margin:4em 4em 4em 8em;
+
+}
+.fst{border:solid blue;border-top-style:solid ;border-right-style:dotted;border-left-style:solid;border-bottom-style:solid;float:left;width:433px;height:auto;margin:auto}
+.scnd{border:solid blue;border-top-style:solid ;border-right-style:solid;border-left-style:dotted;border-bottom-style:solid;float:right;width:433px;height:auto}
+.j1{border:solid gray;width:250px;margin:auto;padding:0.2px}
+.myform{padding-left:30px}*/
+
+#mybody{
+
+}
+#menu ul{
+	list-style:none;
+	position: absolute;
+	right: 10em;
+	top:2em;
+	font-size: 1.1em;
+}
+#menu li {
+	display: inline;
+	margin: 0.7em
+}
+.top img{
+	width:4em;
+	border-radius: 50%;
+	position: absolute;
+	left:2em;
+	top:0.8em;
+	background-color: red;
+	position: fixed;
+}
+.log{
+	position: absolute;
+	left:2em;
+	top:4.7em;
+	position: fixed;
+}
+.fst{
+	margin:7em auto 0em auto;
+	width: 50%;
+}
+table{
+	margin-top: -1em;
+}
+.myform{
+
+	display: grid;
+	grid-template-columns: 10em 10em;
+	
+	margin:0 10em 0 10em;
+
+}
+h5{
+	border-radius: 5px;
+}
+.item input{
+	
+	
+	margin-right: 2em;
+	
+}
+.myform input{
+	margin-right:1em;
+}
+.scnd{
+	margin:5em auto 6em auto;
+	width: 50%;
+}
+
+
