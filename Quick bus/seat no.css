@@ -1,10 +1,26 @@
-#seats{
+/*#seats{
 	border: 1px solid black;
 	width:40%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	margin: 8em 10em 8em 22em;
+margin: 8em 10em 8em 22em;}*/
+	
+Button{
+	margin: 0.5em;display:inline-block; font-size:1.2em; padding: 10px 24px; border-radius:12px;
 }
-button{
-	margin: 0.5em;
-}
+
+.seats{
+	border: 1px solid black;width:42em ; margin:auto; text-align:center;}
+	
+.button:hover{background-color:#3DB8FE;}
+body{background-image:url("kigumba.jpgg");
+		background-repeat:no-repeat;
+		background-size: cover;
+		height: 37em;
+		margin-top: -0.5em;
+		background-attachment:fixed}
+		
+/*#contact{position:fixed;top:1.0em;right:0px;left:67em}*/
+#contact{color:white;background-color:black;text-align:center}
+
+.mycontent{max-width: 950px; margin: auto}
